@@ -1,0 +1,49 @@
+.header{
+    width: 100%;
+    min-height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 8%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header h1{
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav_links ul {
+  display: flex;
+}
+
+.nav_links li{
+  padding: 0 30px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 1.3em;
+}
+
+.nav_links li a:active{
+  color: rgb(99, 10, 201);
+}
+
+.nav_links li a:hover{
+  color: rgb(99, 10, 201);
+  
+}
+
+.cta_tickets{
+  color: white;
+  padding:9px 25px;
+  background-color: blueviolet;
+  border-radius: 30px;
+  font-size: 1.3em;
+
+}
